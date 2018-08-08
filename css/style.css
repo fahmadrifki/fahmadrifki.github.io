@@ -1,4 +1,19 @@
 /*--- Write Style Here ---*/
+body {
+  background-image: linear-gradient(to right bottom, #00cec9, #0984e3);
+}
+ 
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+ 
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
 
 
 /*--- Small devices (landscape phones, 576px and up) ---*/
