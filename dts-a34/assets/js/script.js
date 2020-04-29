@@ -21,3 +21,14 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 /*--- /Slider ---*/
+
+/*--- Toggle Mobile Menu ---*/
+function mobileMenu() {
+  var x = document.getElementById("header-m");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+/*--- /Toggle Mobile Menu ---*/
